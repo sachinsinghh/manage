@@ -22,7 +22,25 @@ Use command to run seeder for to insert data:
 composer dump-autoload
 php artisan db:seed --class=PostsTableSeeder
 
-Step 5: All the routes is available in api.php file which is inside the routes folder of the application.
+Step 5: create a 'roles' and 'posts' table by using the migration feature of laravel .
+
+'posts' table contains the following field:-
+1.name
+2.date
+3.time
+
+name -> It contains the name of user who submitted the attendence.
+date ->Date of the day when the attendence submitted by user
+time -> Exact time when the attendence submitted by user.
+
+'roles' table contains the following field:-
+1.user_id
+2.role_type
+
+user_id -> It contains the id of the user.
+role_type -> It contains the type of role of the user
+
+Step 6: All the routes is available in api.php file which is inside the routes folder of the application.
 
 
 Passport Controller Details:-
@@ -59,5 +77,6 @@ After that for every request to application user need to provide this token for 
 To send Token with every request , put following details in the requested header:
 Authorization header : header "token"
 Accept: application/json
+
 
 
