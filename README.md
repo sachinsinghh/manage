@@ -1,7 +1,7 @@
 # manage
 
 Step 1:
-create PassportController.php file inside API folder using command php aritsan make:controller API\\PaspportController.
+Create PassportController.php file inside API folder using command php aritsan make:controller API\\PaspportController.
 
 Step 2: Install passport library by following the installation steps mentioned in the link https://laravel.com/docs/5.6/passport.
 
