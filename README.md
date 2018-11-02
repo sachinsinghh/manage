@@ -8,7 +8,7 @@ Step 2: Install passport library by following the installation steps mentioned i
 Step 2: All the functions have been defined inside PassportController for our application.
 
 Step 3: Create a MailNotification.php file using command php artisan make:notification MailNotification. 
-Above command will generate a folder named Notifications inside app folder of the application.
+Above command will generate a folder named Notifications inside 'app' folder of the application.
 
 write the statements which you want to send to registered user using toMail($notifiable) function which is available inside MailNotification.php file.
 
@@ -36,8 +36,8 @@ Passport Controller Details:-
 6.submitAttendence() -> User will submit its attendence using this method.
 
 
-Register Functionality:-
-----------------------
+Register Functionality of the application:-
+---------------------------------------
 
 User has to provide following details to register itself:
 1.name
@@ -47,7 +47,8 @@ User has to provide following details to register itself:
 
 After successfull registration an E-mail will be send to user's e-mail for verification
 
-Login Functionality:-
+Login Functionality of the application:-
+---------------------------------------
 User has to provide followig details to login:
 1.email
 2.password
